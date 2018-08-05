@@ -4,6 +4,7 @@
   "scripts": {
     "app": "yarn workspace app",
     "lib": "yarn workspace lib",
-    "lint": "yarn app lint && yarn lib lint"
+    "lint": "yarn app lint && yarn lib lint",
+    "validate": "yarn lib build && yarn lint"
   } 
 }
